@@ -8,9 +8,9 @@
     </head>
     <body>
         <h1 style="text-align: center; width: 100%;"> Test Blog </h1>
-        <div id="rt-menu"> <h3>Menu </h3>
-            <a href="index.php"> Home </a> <br />
-            <a href="addpost.php"> Add Post</a>
+        <div id="rt-menu"> <h3>Menu</h3>
+            <a href="index.php">Home</a> <br />
+            <a href="addpost.php">Add Post</a>
         </div>        
         <div id="main-wrap">
 <!---- HEADER END --->

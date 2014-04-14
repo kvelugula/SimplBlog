@@ -38,7 +38,7 @@ class CPost {
      * Create a DB entry for a new blogpost
      */
     public function create() {
-        $db = CDB::getInstance();
+        $db = CDb::getInstance();
         $dbconn = $db->getConnection();
     
         if (!($stmt = $dbconn->prepare(
@@ -60,7 +60,7 @@ class CPost {
      * Fetches all comments related to the blogpost
      */
     public function getComments() {
-        $db = CDB::getInstance();
+        $db = CDb::getInstance();
         $dbconn = $db->getConnection();
     
         // Get comments for the post andsort them in ascending order

@@ -9,9 +9,9 @@
 $config = array();
 
 $config['db']['hostname'] = 'localhost';
-$config['db']['database'] = 'blogdb';
+$config['db']['database'] = 'dev_blogdb';
 $config['db']['username'] = 'sqluser';
-$config['db']['password'] = 'password';
+$config['db']['password'] = 'TheyRWatching';
 
 //reCaptcha Key
 $config['captcha_domain'] = "localhost";
